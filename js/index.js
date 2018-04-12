@@ -17,7 +17,7 @@ setInterval('cycleImages()', 7000);
 
 
 
-function changenavbarfixed(){
+/* function changenavbarfixed(){
     
     $('.topnav').attr('class', 'sticky');
    
@@ -40,7 +40,7 @@ $(window).bind('scroll', function () {
         $('.topnav').removeClass('sticky');
         
     }
-});
+}); */
 
 
 function mobileiconactive() {
