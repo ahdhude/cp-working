@@ -120,29 +120,30 @@ body {
 
     position: absolute;
     height: 1000px;
-    background: gray;
+    background: #fff;
     width: 100%;
+    margin: auto;
         
  }
 
 
 .box{
-	width:225px;
-	height:240px;
-    margin-left: 14px;
+	width: 175px;
+	height:200px;
+    margin-left: 50px;
     margin-top: 13px;   
    
 	position: relative;
     border-radius:5px;
-    background: rgb(34,34,34); /* for IE */
-    background: rgba(34,34,34,0.75);
+    background:#fff;
 
 	border:1px solid rgba(255,255,255,.3);
 
 	text-align: center;
 
-	text-shadow:0 1px 1px rgba(0,0,0,.4);
-     display: flex;
+	text-shadow:0 1px 1px rgba(34, 31, 31, 0.4);
+    display: flex;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
     transition: box-shadow .3s ease;
     float: left;
     overflow: hidden;
@@ -153,8 +154,8 @@ body {
 
 .box:hover {
     box-shadow: 0px 30px 30px rgba(0,0,0,0.2);
-    height: 330px;
-    width: 280px;
+    height: 285px;
+    width: 244px;
     transition: .3s cubic-bezier(.3, 0, 0, 1.3)
   }
 
@@ -173,7 +174,7 @@ body {
   font-weight: bold;
   height:100%;
   width: 100%;
-  margin-top: 222px;
+  margin-top: 208px;
   margin-left: 70px;
   cursor: pointer;
     
@@ -198,8 +199,8 @@ body {
 
 .box-circle{
 
-    height: 306px;
-    width: 400px;
+    height: 250px;
+    width: 367px;
     background-image: url(..source/category/wedd2.jpg);
     
     position: absolute;
@@ -222,10 +223,10 @@ body {
  
 .box-text{
     text-align: center;
-  margin-top: 152px;
+  margin-top: 120px;
   position: absolute;
   z-index: 9999;
-  font-size: 26px;
+  font-size: 18px;
   color: #2196F3;
   width: 100%;
   font-family: Arial, Helvetica, sans-serif;
@@ -242,7 +243,7 @@ body {
     margin-top: 75px;
     color: #fff;
     transition: .3s cubic-bezier(.3, 0, 0, 1.3);
-    text-shadow: 1px 1px #000000
+   
   }
   
   .box:hover .box-text small {
